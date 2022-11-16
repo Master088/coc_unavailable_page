@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>COC HomeCare Platform</title>
+    <link rel="shortcut icon" href="skins/favicon.png" title="Favicon">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins'>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+ 
+ <style>
+ 
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family:Poppins;
+  font-weight: 300;
+  background-image: url("img/bg-photo.png");
+  height: 100%;
+  font-size: 1em;
+  overflow-x: hidden;
+  overflow-y: visible;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ 
+.card-container{
+  background-color: #002B68;
+   border-radius: 10px;
+   opacity: 0.7;
+   margin-top: 120px;
+   padding: 12px 15px;
+   width: 100% !important;
+   max-width: 1000px;
+}
+.robot{
+  height: 200px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: rgb(232, 225, 225);
+  text-align: center;
+  font-size: .9rem;
+}
+.cover-heading{
+  color: #C7E538;
+  margin-top: 50px;
+  margin-bottom: 2rem;
+  font-size: 1.9rem;
+  font-weight: 800;
+}
+.logo{
+  height: 5rem;
+  margin-top: 15px;
+  margin-left: 1rem;
+}
+
+@media only screen and (max-width: 575px) { 
+  body{
+    text-align: center;   
+   
+  }
+  .card-container{
+    width: 80% !important; 
+    margin-top: 5px; 
+  }
+  .logo{
+    padding: 5px;
+    margin-top: 5px;
+  }
+  .cover-heading{
+    margin-top: 10px !important;
+  }
+
+ }
+ @media only screen and (max-width: 768px){ 
+  body{
+    text-align: center;   
+  }
+  .cover-heading{
+    margin-top: 10px !important;
+  }
+ }
+ </style>
+  </head>
+  <body>
+   
+    <div class="container-fluid">
+      <div class="py-4">
+        <img src="./img/COC logo 247-Horizontal.png" class="logo img-fluid" alt="">
+      </div>
+      <div class="row d-flex justify-content-center    ">
+        <div class=" col-md-9 col-sm-9 d-flex justify-content-center  ">
+         <div class="card card-container px-2">
+          <div class="row">
+            <div class="col-md-4 d-flex justify-content-center">
+              <img src="./img/robot.svg" class="robot img-fluid" alt="">
+            </div>
+            <div class="col-md-8">
+                <h3 class="cover-heading ">Account Temporary Unavailable</h3>
+               <div class="text-white">
+                <p class="text-white">This website is temporarily not available.<br/>Please Check your billing for oustanding invoices.</p>
+               </div>
+            </div>
+          </div>
+         </div>
+        </div>
+      </div>
+    </div>
+    
+    <footer class=" mt-auto footer">
+      <div class="inner">
+        <p>© 2022 MotivIT Group. All Rights Reserved.</p>
+      </div>
+    </footer> 
+</body>
+</html>
